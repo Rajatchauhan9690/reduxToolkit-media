@@ -12,7 +12,13 @@ const ResultCard = ({ item }) => {
   };
 
   return (
-    <div className="w-[22vw] relative h-80 bg-white rounded-xl overflow-hidden">
+    <div
+      className="
+  w-[90vw] sm:w-[70vw] md:w-[40vw] lg:w-[22vw]
+  h-60 sm:h-72 md:h-80
+  relative bg-white rounded-xl overflow-hidden
+"
+    >
       <a target="_blank" className="h-full" href={item.url}>
         {item.type == "photo" ? (
           <img
