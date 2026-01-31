@@ -14,8 +14,15 @@ const ResultCard = ({ item }) => {
   return (
     <div
       className="
-  w-[90vw] sm:w-[70vw] md:w-[40vw] lg:w-[22vw]
-  h-60 sm:h-72 md:h-80
+  w-full 
+  sm:w-1/2 
+  md:w-1/3 
+  lg:w-1/4 
+  xl:w-[22vw]
+  h-56 
+  sm:h-64 
+  md:h-72 
+  lg:h-80
   relative bg-white rounded-xl overflow-hidden
 "
     >
